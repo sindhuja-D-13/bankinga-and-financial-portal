@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - SecureBank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Create Your Account</h1>
+
+<nav class="box-nav">
+    <a href="index.html" class="nav-home">Home</a>
+    <a href="register.html" class="nav-register">Register</a>
+    <a href="accounts.html" class="nav-accounts">Accounts</a>
+    <a href="transactions.html" class="nav-transactions">Transactions</a>
+    <a href="loans.html" class="nav-loans">Loans</a>
+</nav>
+
+
+<div class="card">
+<form action="#" method="post">
+
+    <label>Full Name</label>
+    <input type="text" name="fullname" placeholder="Enter your full name" required>
+
+    <label>Email Address</label>
+    <input type="email" name="email" placeholder="Enter your email" required>
+
+    <label>Password</label>
+    <input type="password" name="password" placeholder="Create a password" required>
+
+    <label>Confirm Password</label>
+    <input type="password" name="confirm_password" placeholder="Confirm password" required>
+
+    <label>Phone Number</label>
+    <input type="tel" name="phone" placeholder="Enter phone number" required>
+
+    <label>Account Type</label>
+    <select name="account_type" required>
+        <option value="">-- Select Account Type --</option>
+        <option value="savings">Savings Account</option>
+        <option value="current">Current Account</option>
+        <option value="business">Business Account</option>
+    </select>
+
+    <input type="submit" value="Register" class="black-btn">
+
+
+</form>
+</div>
+
+</div>
+
+</body>
+</html>
